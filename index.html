@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sowmiya N | Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", sans-serif;
+}
+
+/* ===== MAIN BACKGROUND ===== */
+body{
+    background: linear-gradient(135deg, #1e1b4b, #020617);
+    color:#e5e7eb;
+}
+
+/* Layout */
+.wrapper{
+    display:grid;
+    grid-template-columns:280px 1fr;
+    min-height:100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+    background: linear-gradient(180deg, #312e81, #020617);
+    padding:40px 25px;
+}
+
+.sidebar h1{
+    font-size:28px;
+    color:#a5b4fc;
+    margin-bottom:10px;
+}
+
+.sidebar h3{
+    font-size:14px;
+    color:#c7d2fe;
+    margin-bottom:30px;
+}
+
+.sidebar p{
+    font-size:14px;
+    margin-bottom:12px;
+    color:#e0e7ff;
+}
+
+.sidebar a{
+    color:#a5b4fc;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.sidebar a:hover{
+    text-decoration:underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main{
+    padding:50px 60px;
+}
+
+.section{
+    margin-bottom:40px;
+}
+
+.section h2{
+    font-size:20px;
+    color:#a5b4fc;
+    border-left:4px solid #a5b4fc;
+    padding-left:10px;
+    margin-bottom:15px;
+}
+
+.section p,
+.section li{
+    font-size:15px;
+    line-height:1.7;
+    color:#e5e7eb;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+/* ===== SKILLS ===== */
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:20px;
+}
+
+.skill-box{
+    background: rgba(15, 23, 42, 0.7);
+    padding:18px;
+    border-left:3px solid #a5b4fc;
+    border-radius:6px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:900px){
+    .wrapper{
+        grid-template-columns:1fr;
+    }
+    .main{
+        padding:30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h1>SOWMIYA N</h1>
+        <h3>B.Tech IT (2024–2028)</h3>
+
+        <p>📍 Tirupur, India</p>
+        <p>📧 nsowmiya223@gmail.com</p>
+        <p>📞 9344223097</p>
+
+        <br>
+
+        <p><a href="https://github.com/Sowmiya-2007" target="_blank">GitHub</a></p>
+        <p><a href="https://leetcode.com/u/SOWMIYAN2007/" target="_blank">LeetCode</a></p>
+        <p><a href="https://www.hackerrank.com/profile/nsowmiya223" target="_blank">HackerRank</a></p>
+        <p><a href="https://www.linkedin.com/in/sowmiya-n-sowmiya-96114b339/" target="_blank">LinkedIn</a></p>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <div class="section">
+            <h2>Career Objective</h2>
+            <p>
+                Engineering student with a strong interest in software development and problem-solving.
+                Actively developing skills in Java and Data Structures through coding practice and
+                seeking opportunities to strengthen real-world application of these skills.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>B.Tech – Information Technology</strong><br>
+                    Bannari Amman Institute of Technology (2024–2028)<br>
+                    CGPA: 7.65 (Up to 2nd Semester)
+                </li>
+                <li><strong>Higher Secondary (12th)</strong> – 94.17%</li>
+                <li><strong>Secondary (10th)</strong> – 95%</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill-box">
+                    <strong>Programming</strong>
+                    <p>C, Python (Basics), Java</p>
+                </div>
+                <div class="skill-box">
+                    <strong>Java Topics</strong>
+                    <p>Arrays, Strings, Recursion</p>
+                </div>
+                <div class="skill-box">
+                    <strong>Data Structures</strong>
+                    <p>Arrays, Linked Lists, Stacks, Queues</p>
+                </div>
+                <div class="skill-box">
+                    <strong>Soft Skills</strong>
+                    <p>Problem-solving, Logical Thinking, Time Management</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects & Practice</h2>
+            <ul>
+                <li>Solved 60+ problems on LeetCode.</li>
+                <li>Mini projects: Number Guessing Game, Calculator.</li>
+            
+                <li>Programs on arrays, strings, sorting.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Tamil</li>
+                <li>English</li>
+                <li>Hindi (Basic)</li>
+            </ul>
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
